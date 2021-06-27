@@ -1,11 +1,62 @@
+body {
+    background-color:    #e41b03 ;
+}
+
 #container {
     height: 512px;
     width: 512px;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
-    border: 5px solid black;
+    border: 2px solid   #cccccc;
+    background-color:  #e4e4e4;
+    margin: 50px auto;
+    border: 2px solid #e4b103;
+    border-radius: 5px;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+
+button {
+    background:#e4b103; 
+    border: 2px solid #e4b103;
+    padding: 10px;
+    margin: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #e41b03 ;
+    
+}
+
+#resetButton {
+    background-color: black;
+    border: 2px solid #e4b103;
+    
+}
+
+#resetButton:hover {
+    -webkit-box-shadow: inset 0px 0px 54px -22px rgba(235,3,3,1);
+    -moz-box-shadow: inset 0px 0px 54px -22px rgba(235,3,3,1);
+    box-shadow: inset 0px 0px 54px -22px rgba(235,3,3,1);
+}
+
+button:hover {
+    -webkit-box-shadow: inset 0px 0px 54px -22px rgba(0,0,0,1);
+-moz-box-shadow: inset 0px 0px 54px -22px rgba(0,0,0,1);
+box-shadow: inset 0px 0px 54px -22px rgba(0,0,0,1);
 
 }
 
+#title {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    padding: 50px;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 2px  #e4b103 ;
+}
 
